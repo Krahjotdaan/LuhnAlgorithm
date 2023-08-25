@@ -1,7 +1,11 @@
+// Created by Ostapenko Artem
+// GitHub account https://github.com/Krahjotdaan
+// This repository licensed as Open Source under MIT License
+// This algoritm described by Hans Peter Luhn, U.S. Patent No. 2,950,048, granted on August 23, 1960
 #include <iostream>
 using namespace std;
 bool luhn_algorithm(long long sequence) {
-    
+
     // determining the number of digits in a sequence
     int numbers_amount = 0;
     long long tmp = sequence;
